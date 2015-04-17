@@ -6,7 +6,7 @@ body{background-color:#FF7F50;
 .homebody{background-image:url("images/background_home.jpg");
 background-size:100%;
 }
-
+ 
 /**{border:1px solid black
 }*/
 
@@ -73,6 +73,11 @@ h1{padding:1%;
 	opacity:.9;
 }
 
+.tripbody{
+	background-image:url("images/bigwave.jpg");
+background-size:100%;
+}
+
 .trip{margin:2% 0% 0% 0%;
 	height:1000px;
 	background-color:white;
@@ -80,6 +85,83 @@ h1{padding:1%;
 	padding:2px;
 	text-align:center;
 }
+
+.poolbody{background-image:url("images/pool.jpg");
+background-size:100%;}
+
+.vidrow{height:220px;
+	margin:2% 0% 2% 0%;
+}
+.video{
+	margin:0% 0% 0% 0%;
+	text-align:center;
+}
+iframe{height:200px;
+}
+
+.pooltext1{height:200px;
+	background-color:white;
+	opacity:.8;
+	margin:0% 5% 0% 5%;
+	text-align:left;
+	padding:4%;
+}
+
+.pooltext2{height:200px;
+	background-color:white;
+	opacity:.8;
+	margin:0% 5% 0% 5%;
+	text-align:right;
+	padding:4%;
+}
+
+.pooltext3{height:130px;
+	background-color:white;
+	opacity:.8;
+	margin:0% 0% 0% 0%;
+	text-align:center;
+	padding:4%;
+}
+.poolempty{height:230px;
+}
+
+.joinbody{background-image:url("images/stuffedvan.jpg");
+background-size:100%;}
+
+.topbar{margin:4% 0% 0% 0%;}
+.midbar{margin:0% 0% 0% 0%;}
+
+.divsideimg{height:110px;
+	margin:0% 0% 0% 2%;
+	background-color:white;
+	opacity:.8;
+}
+.divrsideimg{height:110px;
+	margin:0% 0% 0% 4%;
+	background-color:white;
+	opacity:.8;
+}
+
+.sideimg{height:110px;
+		width:98%;
+	padding:2% 2% 2% 2%;
+}
+
+.divsideimgt{height:110px;
+	margin:2% 0% 0% 2%;
+	background-color:white;
+}
+
+.divrsideimgt{height:110px;
+	margin:2% 0% 0% 1.5%;
+	background-color:white;}
+
+.jointext{height:130px;
+	background-color:white;
+	opacity:.8;
+	margin:0% 0% 0% 2.5%;
+	text-align:center;
+	padding:4%;}
 
 *{
   /** this code tells the browser to include the border in calculating an element's height and width. webkit, moz, and ms are specifications for chrome, mozilla firefox, and internet explore **/
@@ -93,6 +175,7 @@ h1{padding:1%;
   display: flex;
   flex-wrap: wrap; 
 }
+
 .grid-1{
   width:8.33%
 }
