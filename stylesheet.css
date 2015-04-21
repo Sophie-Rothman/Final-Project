@@ -50,10 +50,14 @@ h1{padding:1%;
 
 .text{height:320px;
 	margin:2% 0% 0% 0%;
-	padding:1%;
+	padding:1% .5% 0% .5%;
 	background-color:white;
 	opacity: 0.73;
+}
+.intext{font-size:13px;
+	margin:1%;
 	text-align:center;
+	font-weight:bold;
 }
 
 .snow{
@@ -108,6 +112,7 @@ background-size:100%;}
 	text-align:center;
 }
 iframe{height:200px;
+	border:0;
 }
 
 .poolimg{height:200px;
@@ -356,7 +361,7 @@ button{display:block;
 	margin:2% 0% 0% 0%;
 	}
 	.video{
-	margin:20% 10% 0% 12%;
+	margin:20% 10% 0% 20%;
 	text-align:center;
 	display:block;
 	}
@@ -392,7 +397,7 @@ button{display:block;
 		width:150%;
 		background-color:white;
 		opacity:.8;
-		margin:150% 0% 0% -67%;
+		margin:30% 0% 0% 30%;
 		text-align:center;
 		padding:4%;
 		display:block;
