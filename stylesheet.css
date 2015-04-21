@@ -30,7 +30,7 @@ a{display:inline;
 
 hr{margin:0%;
 	padding:0%;
-	height:2px;
+	height:3px;
 	background-color:#3D5229;
 }
 
@@ -45,7 +45,7 @@ h1{padding:1%;
     width:100%;}
 
  .empty{height:320px;
- 	margin:2% 0% 0% 0%;
+ 	margin:2% -2% 0% 0%;
  }
 
 .text{height:320px;
@@ -57,19 +57,21 @@ h1{padding:1%;
 }
 
 .snow{
-	padding:1.5% 1% 2% .5%;
+	
 	height:320px;
-	margin:2% 0% 0% 0%;
+	margin:2% 0% 0% 1%;
 	opacity:.9;
 }
 
 .kirsten{height:20%;
-	padding:.5%;
+	padding:0% 0% 0% .5%;
+	margin:.5% -1% 1% 0%;
 	opacity:.9;
 }
 
 .river{height:20%;
 	padding:.5% 0% 3% 0%;
+	margin:0% 0% 0% -2%;
 	opacity:.9;
 }
 
@@ -198,7 +200,7 @@ button{display:block;
 
 
 .hr2{
-	margin:-2% 0% 0% 0%;
+	margin:-1% 0% 0% 0%;
 	padding:0%;
 	height:5px;
 	background-color:#3D5229;
