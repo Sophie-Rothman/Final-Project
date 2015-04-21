@@ -19,6 +19,7 @@ background-size:100%;
 	border-radius:30% ;
 	margin:0% -3% 3% 0%;
 	text-shadow: 2px 2px white;
+	font-weight: bold;
 	}
 .universal p{display:inline;}
 .topnav{font-size:25px;
@@ -30,10 +31,13 @@ a{display:inline;
 
 hr{margin:0%;
 	padding:0%;
-	height:3px;
+	height:4px;
 	background-color:#3D5229;
 }
 
+.hr3{height:1px;
+	margin:.5% 4% .5% 4%;
+}
 
 a:hover{color:#3D5229;}
 
@@ -158,8 +162,8 @@ background-size:100%;}
 
 .topbar{margin:1% 0% 0% 0%;}
 .midbar{margin:0% 0% 0% 0%;}
-.lowbar{margin:0% 0% 20% 0%;
-	height:250px;
+.lowbar{margin:0% 0% 4% 0%;
+
 }
 
 .divsideimg{height:110px;
@@ -405,6 +409,8 @@ button{display:block;
 	.poolempty{height:230px;
 		margin:0%;
 	}
+
+	#special{height:30%; width:80%;}
 
 
 	  .grid-1{
