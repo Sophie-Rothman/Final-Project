@@ -99,13 +99,24 @@ width:80px;}
 background-size:100%;}
 
 .vidrow{height:220px;
-	margin:2% 0% 2% 0%;
+	margin:2% 0% 0% 0%;
 }
 .video{
 	margin:0% 0% 0% 0%;
 	text-align:center;
 }
 iframe{height:200px;
+}
+
+.poolimg{height:200px;
+	width:96%;
+	margin:0%;
+}
+
+.poolimgimg{
+	margin:1%;
+	height:200px;
+	width:96%;
 }
 
 .pooltext1{height:200px;
@@ -127,11 +138,12 @@ iframe{height:200px;
 .pooltext3{height:130px;
 	background-color:white;
 	opacity:.8;
-	margin:0% 0% 0% 0%;
+	margin:7% 1% 0% 1%;
 	text-align:center;
 	padding:4%;
 }
 .poolempty{height:230px;
+	margin:0%;
 }
 
 .joinbody{background-image:url("images/stuffedvan.jpg");
